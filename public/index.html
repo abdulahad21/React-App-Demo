@@ -29,16 +29,16 @@
 <style>
  /* Styles for the form container */
 .container {
-  width: 400px;
-  margin: 0 auto;
-  padding-left: 0%;
+  width: 100%;
+  margin: 0;
+  padding-left: 2%;
   padding-right: 0%;
   font-family: Arial, sans-serif;
 }
 
 /* Styles for form labels */
 label {
-  margin-right: 5px;
+  margin-right: 2px;
   font-weight: bold;
 }
 
@@ -46,7 +46,7 @@ label {
 input {
   margin-bottom: 10px;
   padding: 8px;
-  width: calc(100% - 18px);
+  width: calc(100% - 32px);
   border: 1px solid #ccc;
   border-radius: 4px;
 }
@@ -78,5 +78,61 @@ button {
 .students-info li {
   margin-bottom: 5px;
 }
+.main-content {
+      margin: 10px;
+      padding: 10px;
+      border: 5px solid #fff; /* White border for content area */
+      border-radius: 5px;
+      background-color: #fff;
+      text-align: left;
+    }
 
+    h1 {
+      color: #000;
+      font-family: 'Open Sans', sans-serif;
+    }
+
+    .header-content {
+      display: flex;
+      align-items: center;
+      justify-content: space-between; /* Adjusted for space between h1 and img */
+      margin-bottom: 20px;
+    }
+
+    img {
+      width: 100px;
+      height: auto;
+      margin-left: 20px; /* Adjusted margin for space between h1 and img */
+    }
+
+    p {
+      color: #333;
+      line-height: 1.6;
+      margin-bottom: 15px;
+      font-family: 'Open Sans', sans-serif;
+      font-weight: bold;
+    }
+
+    h2,
+    h3 {
+      color: #000;
+      margin-bottom: 10px;
+      font-family: 'Open Sans', sans-serif;
+    }
+
+    a {
+      color: #007bff;
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    @media only screen and (max-width: 600px) {
+      img {
+        margin-top: 0; /* Reset margin-top for smaller screens */
+        margin-left: 0; /* Reset margin-left for smaller screens */
+      }
+    }
 </style>
