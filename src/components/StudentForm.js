@@ -34,6 +34,10 @@ export default function StudentForm (props){
         if(formData.name.trim() === '' | formData.class.trim() === '' || formData.section.trim() === '' || formData.fee.trim() === '' || formData.joiningDate.trim() === '')
         {
             setShowAlert(true);
+            setTimeout(() => {
+                setShowAlert(false);
+            }, 1500);
+            
         }
         else{
             setShowAlert(false);
