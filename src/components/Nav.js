@@ -16,7 +16,7 @@ export default function Nav(props){
           <Link className="nav-link active" aria-current="page" to="/StudentForm">{props.Second}</Link>
         </li>
         <li className="nav-item">
-          <Link className="nav-link" to="/About">{props.Third}</Link>
+          <Link className="nav-link active" to="/About">{props.Third}</Link>
         </li>
       </ul>
          <div className={`form-check form-switch text-${props.textcolor}`}>
